@@ -10,7 +10,9 @@ function b64DecodeUnicode(str) {
 return decodeURIComponent( escape( atob( str ) ) );}
 var searchs = location.search;
 idvideo = searchs.replace("?video=","");
-idvideourl = "http://ps-7ora.alafdal.net/h239-page?video="+idvideo;
+var uncidvideourls = "aHR0cDovL3d1YXJhYi5ibG9nc3BvdC5jb20vcC9wcmV2aWV3Lmh0bWw/dmlkZW89;"
+var idvideourls = b64DecodeUnicode(uncidvideourls);
+var idvideourl = idvideourls+idvideo;
 idvideos = searchs.replace("?video=","");
 vidyut= b64DecodeUnicode(idvideos);
 var uncyt = "eW91dHViZQ==";
