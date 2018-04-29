@@ -1,3 +1,4 @@
+        var videotracks = "";   
         var wopenpop = 450;
         var hopenpop = 450;
         var left = Number((screen.width/2)-(wopenpop/2));
