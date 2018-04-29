@@ -12,7 +12,8 @@ function b64DecodeUnicode(str) {
 }
 
 var searchs = location.search;
-var hashidonsite = location.hash;
+var hashidonsites = location.hash;
+var hashidonsite = hashidonsites;
 var uncidvideourls = "Ly93dWFyYWIuYmxvZ3Nwb3QuY29tL3AvdmlkZW9zLmh0bWw/dmlkZW89";
 var idvideourls = b64DecodeUnicode(uncidvideourls);
 var idvideo = searchs.replace("?video=","");
@@ -35,7 +36,8 @@ var setcvidd= b64DecodeUnicode(uncvidd);
 
 
 
-var setonechashid = b64DecodeUnicode(hashidonsite);
+var setonechashids = b64DecodeUnicode(hashidonsite);
+var setonechashid = setonechashids;
 var replacehash = setonechashid.replace("#","");
 var sethashids = "https://wuarabic.blogspot.com"+replacehash;
 
