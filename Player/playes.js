@@ -9,12 +9,11 @@ return btoa( unescape( encodeURIComponent( str ) ) );
 function b64DecodeUnicode(str) {
 return decodeURIComponent( escape( atob( str ) ) );}
 var searchs = location.search;
-idvideo = searchs.replace("?video=","");
-var uncidvideourls = "aHR0cDovL3d1YXJhYi5ibG9nc3BvdC5jb20vcC9wcmV2aWV3Lmh0bWw/dmlkZW89;"
+var uncidvideourls = "aHR0cDovL3d1YXJhYi5ibG9nc3BvdC5jb20vcC9wcmV2aWV3Lmh0bWw/dmlkZW89";
 var idvideourls = b64DecodeUnicode(uncidvideourls);
+var idvideos = searchs.replace("?video=","");
+var vidyut= b64DecodeUnicode(idvideos);
 var idvideourl = idvideourls+idvideo;
-idvideos = searchs.replace("?video=","");
-vidyut= b64DecodeUnicode(idvideos);
 var uncyt = "eW91dHViZQ==";
 var setcyt= b64DecodeUnicode(uncyt);
 var uncem = "LmNvbS9lbWJlZC8=";
