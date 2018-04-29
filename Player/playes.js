@@ -35,9 +35,9 @@ var setcvidd= b64DecodeUnicode(uncvidd);
 
 
 
-var setonechashid = hashidonsite;
+var setonechashid = b64DecodeUnicode(hashidonsite);
 var replacehash = setonechashid.replace("#","");
-var sethashids = "https://wuarabic.blogspot.com";
+var sethashids = "https://wuarabic.blogspot.com"+replacehash;
 
 var blob = new Blob([th+setcyt+setcem+vidyut], { type: 'text/plain' });
 var blobUrl = URL.createObjectURL(blob);
