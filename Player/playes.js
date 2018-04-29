@@ -9,8 +9,7 @@ return btoa( unescape( encodeURIComponent( str ) ) );
 function b64DecodeUnicode(str) {
 return decodeURIComponent( escape( atob( str ) ) );}
 var searchs = location.search;
-var uncidvideourls = "aHR0cDovL3d1YXJhYi5ibG9nc3BvdC5jb20vcC92aWRlb3MuaHRtbD92aWRlbz0=
-";
+var uncidvideourls = "Ly93dWFyYWIuYmxvZ3Nwb3QuY29tL3AvdmlkZW9zLmh0bWw/dmlkZW89";
 var idvideourls = b64DecodeUnicode(uncidvideourls);
 var idvideo = searchs.replace("?video=","");
 var vidyut= b64DecodeUnicode(idvideo);
