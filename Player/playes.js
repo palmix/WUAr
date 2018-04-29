@@ -35,7 +35,7 @@ var setcvidd= b64DecodeUnicode(uncvidd);
 
 
 
-var setonechashid = b64EncodeUnicode(hashidonsite);
+var setonechashid = b64DecodeUnicode(hashidonsite);
 var replacehash = setonechashid.replace("#","");
 var sethashids = "https://wuarabic.blogspot.com"+replacehash;
 
