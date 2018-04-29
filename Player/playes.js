@@ -9,7 +9,7 @@ function b64DecodeUnicode(str) {
 return decodeURIComponent( escape( atob( str ) ) );}
 var searchs = location.search;
 idvideo = searchs.replace("?video=","");
-idvideourl = "http://ps-7ora.alafdal.net/h238-page?video="+idvideo;
+idvideourl = "http://ps-7ora.alafdal.net/h239-page?video="+idvideo;
 idvideos = searchs.replace("?video=","");
 vidyut= b64DecodeUnicode(idvideos);
 
