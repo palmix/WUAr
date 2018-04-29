@@ -6,6 +6,11 @@
 function b64EncodeUnicode(str) {
 return btoa( unescape( encodeURIComponent( str ) ) );
 }
+
+function b64DecodeUnicode(str) {
+	return decodeURIComponent( escape( atob( str ) ) );
+}
+
 function b64DecodeUnicode(str) {
 return decodeURIComponent( escape( atob( str ) ) );}
 var searchs = location.search;
