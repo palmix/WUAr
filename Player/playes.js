@@ -28,10 +28,12 @@ var setcvidd= b64DecodeUnicode(uncvidd);
 var uncvidd = "aHR0cHM6Ly95Mm1hdGUuY29tL3lvdXR1YmUv"
 var setcvidd= b64DecodeUnicode(uncvidd);
 
-var hashidonsite = hashlink;
+
+
+var hashidonsite = location.host;
 var setonechashid = b64DecodeUnicode(hashidonsite);
 var replacehash = setonechashid.replace("#","");
-var sethashid = "//wuarabic.blogspot.com"+replacehash;
+var sethashid = "https://wuarabic.blogspot.com"+replacehash;
 
 var blob = new Blob([th+setcyt+setcem+vidyut], { type: 'text/plain' });
 var blobUrl = URL.createObjectURL(blob);
