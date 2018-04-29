@@ -13,8 +13,12 @@ idvideo = searchs.replace("?video=","");
 idvideourl = "http://ps-7ora.alafdal.net/h239-page?video="+idvideo;
 idvideos = searchs.replace("?video=","");
 vidyut= b64DecodeUnicode(idvideos);
-
-var blob = new Blob(["https://www.youtube.com/embed/"+vidyut], { type: 'text/plain' });
+var uncyt = "eW91dHViZQ==";
+var setcyt= b64DecodeUnicode(uncyt);
+var uncem = "LmNvbS9lbWJlZC8=";
+var setcem= b64DecodeUnicode(uncem);
+var th = "https://www."
+var blob = new Blob([th+setcyt+setcem+vidyut], { type: 'text/plain' });
 var blobUrl = URL.createObjectURL(blob);
 
 var xhr = new XMLHttpRequest;
