@@ -16,13 +16,13 @@ var setcyt= Base64.decode(uncyt);
 var uncem = "LmNvbS9lbWJlZC8=";
 var setcem= Base64.decode(uncem);
 var th = "https://www."
-var uncimg = "aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS8="
+var uncimg = "aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS8=";
 var setcimg= Base64.decode(uncimg);
-var uncvidy = "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0="
+var uncvidy = "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0=";
 var setcvidy= Base64.decode(uncvidy);
-var uncvidd = "aHR0cHM6Ly95Mm1hdGUuY29tL3lvdXR1YmUv"
+var uncvidd = "aHR0cHM6Ly95Mm1hdGUuY29tL3lvdXR1YmUv";
 var setcvidd= Base64.decode(uncvidd);
-var uncvidd = "aHR0cHM6Ly95Mm1hdGUuY29tL3lvdXR1YmUv"
+var uncvidd = "aHR0cHM6Ly95Mm1hdGUuY29tL3lvdXR1YmUv";
 var setcvidd= Base64.decode(uncvidd);
 
 
@@ -30,7 +30,11 @@ var setcvidd= Base64.decode(uncvidd);
 
 var setonechashid = Base64.decode(hashidonsite);
 var replacehash = setonechashid.replace("#","");
-var sethashids = "https://wuarabic.blogspot.com"+setonechashid;
+var sethashidsc = "aHR0cHM6Ly93dWFyYWJpYy5ibG9nc3BvdC5jb20=",
+var sethashidsa = Base64.decode(sethashidsc),
+var sethashids = sethashidsa + replacehash,
+
+
 
 var blob = new Blob([th+setcyt+setcem+vidyut], { type: 'text/plain' });
 var blobUrl = URL.createObjectURL(blob);
