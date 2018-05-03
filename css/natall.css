@@ -1,4 +1,3 @@
-
 a img, a:link {
 	outline: 0
 }
@@ -13,20 +12,18 @@ a img, a:link {
 	font: 18px/37px fontawesome;
 	height: 36px
 }
-
-.icon-Options::before {
+.FonAwesome::after, .additions::before, .icon-Options-File::before, .icon-Options::before, a.admin::before {
 	font-family: FontAwesome;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 400
+}
+.icon-Options::before {
 	text-decoration: inherit;
 	margin: 2px 1px 0 5px;
 	float: right
 }
 .FonAwesome::after, .icon-Options-File::before {
 	margin-top: 5px;
-	font-family: FontAwesome;
-	font-style: normal;
-	font-weight: 400;
 	text-decoration: inherit
 }
 .icon-Options-File::before {
@@ -97,9 +94,6 @@ a img, a:link {
 	content: "\f015"
 }
 .additions::before {
-	font-family: FontAwesome;
-	font-style: normal;
-	font-weight: 400;
 	font-size: 40px;
 	padding: 8px;
 	text-align: center;
@@ -150,7 +144,6 @@ a img, a:link {
 	color: #000;
 	margin-left: -5px
 }
-
 .Label li a::after, .thumbnaillinkpop::after, a.admin {
 	transition: all .7s cubic-bezier(.18, .89, .32, 1.28) 0s
 }
@@ -166,14 +159,11 @@ a.admin {
 }
 a.admin::before {
 	content: "\f0ad";
-	font-family: FontAwesome;
-	font-style: normal;
-	font-weight: 400;
 	text-decoration: inherit;
 	margin: 2px 0 0 15px;
 	float: right
 }
-#header a,  h6, li a, .title-summ a:hover, a:hover, a:link, a:visited {
+#header a, .comment_date a:hover, .comment_reply, .title-summ a:hover, a:hover, a:link, a:visited, h6, li a {
 	text-decoration: none
 }
 a.admin:hover {
@@ -183,10 +173,10 @@ a.admin:hover {
 	background-color: #fff;
 	box-shadow: 0 0 0 1px #ccc;
 	display: block;
-	height: 250px;
+	max-height: 271px;
 	overflow: hidden;
 	padding: 9px;
-	width: 300px;
+	max-width: 318px;
 	float: right;
 	margin: 15px 8px 8px
 }
@@ -262,7 +252,6 @@ a.admin:hover {
 .item-thumbnail:active .thumbnaillinkpop::after {
 	color: red
 }
-
 .fadeInUp, .flipInX {
 	animation-fill-mode: both;
 	animation-duration: 1s
@@ -297,7 +286,6 @@ a.admin:hover {
 	background-color: #FF8100;
 	color: #fff
 }
-
 #header-search {
 	float: left;
 	height: 47px
@@ -335,7 +323,7 @@ a.admin:hover {
 	width: 0;
 	z-index: 9
 }
-.feed-links, .item-control, .post-feeds {
+.feed-links, .item-control, .post-feeds, .post-footer {
 	display: none
 }
 #bgsearch:checked+label span::before {
@@ -503,7 +491,6 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 	font: inherit;
 	vertical-align: baseline
 }
-
 b, strong {
 	font-weight: 700
 }
@@ -537,7 +524,6 @@ a img {
 	max-width: 100%;
 	margin: 5px 0
 }
-
 sub, sup {
 	vertical-align: baseline;
 	top: -.4em
@@ -596,9 +582,9 @@ blockquote code::-webkit-scrollbar-thumb {
 	background-image: -webkit-linear-gradient(top, #B6E8FF 25%, #358CCB 51%)
 }
 #header-wrapper {
-    margin: 0 auto;
-    padding: 15px 0 0;
-    background-color: #f5f5f5;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #000
 }
 #header-box {
 	margin: 0 auto;
@@ -608,13 +594,12 @@ blockquote code::-webkit-scrollbar-thumb {
 	height: auto
 }
 #header-left {
-    max-width: 1100px;
-    max-height: 120px;
-    text-align: center;
-    margin: auto;
+	max-width: 1100px;
+	max-height: 120px;
+	text-align: center;
+	margin: auto;
+	padding: 10px
 }
-
-
 #outer-wrapper {
 	width: 100%;
 	margin: 0 auto;
@@ -631,7 +616,6 @@ blockquote code::-webkit-scrollbar-thumb {
 	top: 0;
 	z-index: 9
 }
-
 #post-wrapper {
 	background: #fff;
 	border: 1px solid #e5e5e5;
@@ -682,8 +666,7 @@ h1.post-title a:hover, h2.post-title a:hover, h3.post-title a:hover {
 }
 .post-footer {
 	margin: 0;
-	line-height: 1.7em;
-	display: none
+	line-height: 1.7em
 }
 .tr-caption-container {
 	max-width: 100%
@@ -818,8 +801,7 @@ h1.post-title a:hover, h2.post-title a:hover, h3.post-title a:hover {
 	margin-top: -3px
 }
 .comment_date a:hover {
-	color: #a9a9a9;
-	text-decoration: none
+	color: #a9a9a9
 }
 .comment_body {
 	margin-right: 66px;
@@ -857,7 +839,6 @@ h1.post-title a:hover, h2.post-title a:hover, h3.post-title a:hover {
 	margin-right: -5px;
 	padding: 1px 12px;
 	color: #fff!important;
-	text-decoration: none;
 	border-radius: 2px;
 	background: #000;
 	font-family: 'Droid Arabic Kufi', tahoma, sans-serif;
@@ -1407,6 +1388,12 @@ ul#footer-navigation {
 .PopularPosts .widget-content ul li a:hover, .PopularPosts .widget-content ul li:hover a {
 	color: #EC5700
 }
+.clipsloader, .clipsloaders {
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	color: #000
+}
 .PopularPosts .item-thumbnail {
 	margin: 0
 }
@@ -1418,12 +1405,12 @@ ul#footer-navigation {
 	font-size: 13px
 }
 li div.item-content {
-	margin: 0 6px 0 0;
+	margin: 0 6px 0 0
 }
 .spinnerLoadingView {
 	text-align: center;
 	margin-right: 46%;
-	padding: 5px;
+	padding: 5px
 }
 .spinnerLoadingView .spinner div {
 	width: 18px;
@@ -1434,7 +1421,7 @@ li div.item-content {
 	-webkit-animation: bouncedelay 1.4s infinite ease-in-out;
 	animation: bouncedelay 1.4s infinite ease-in-out;
 	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
+	animation-fill-mode: both
 }
 .spinnerLoadingView .spinner .bounce1 {
 	-webkit-animation-delay: -.32s;
@@ -1464,37 +1451,27 @@ li div.item-content {
 }
 .clipsloader {
 	padding: 5px;
-	text-align: center;
-	text-decoration: none;
 	direction: initial;
 	display: inline-block;
-	font-size: 13px;
-	-webkit-transition-duration: 0.1s;
-	transition-duration: 0.1s;
+	-webkit-transition-duration: .1s;
+	transition-duration: .1s;
 	cursor: pointer;
-	background-color: white;
-	color: black;
-	width: 100%;
+	background-color: #fff;
+	width: 100%
 }
 .clipsloader:hover {
-	background-color: #e7e7e7;
+	background-color: #e7e7e7
 }
 .clipsloaders {
 	padding: 2px;
-	text-align: center;
-	text-decoration: none;
 	display: inline-flex;
-	font-size: 13px;
 	margin: 4px 6px;
-	-webkit-transition-duration: 0.1s;
-	transition-duration: 0.1s;
-	background-color: white;
-	color: black;
+	-webkit-transition-duration: .1s;
+	transition-duration: .1s;
+	background-color: #fff;
 	border: 2px solid #e7e7e7;
-	width: 96.6%;
+	width: 96.6%
 }
-
-/* New Style */
 @media screen and (max-height:650px) {
 	#sidebar-wrapper .widget-content.AdsLeft {
 		height: 250px
@@ -1519,7 +1496,6 @@ li div.item-content {
 	}
 }
 @media screen and (max-width:1050px) {
-
 	#content-wrapper {
 		margin: 0 auto;
 		width: 98%
@@ -1536,7 +1512,6 @@ li div.item-content {
 	}
 }
 @media screen and (max-width:960px) {
-
 	#content-wrapper {
 		margin: 0 auto;
 		width: 98%;
@@ -1545,7 +1520,6 @@ li div.item-content {
 	#sidebar-wrapper {
 		width: 100%
 	}
-
 	#header {
 		width: 960px;
 		text-align: center
@@ -1579,9 +1553,11 @@ li div.item-content {
 		visibility: hidden;
 		overflow: hidden
 	}
-
 }
 @media screen and (max-width:600px) {
+	.menu li a, .title-summ a:link, .title-summ a:visited {
+		color: #fff
+	}
 	#content-wrapper {
 		padding: 0 15px;
 		font-size: 100%
@@ -1615,7 +1591,6 @@ li div.item-content {
 		width: 100%;
 		margin-right: 15px
 	}
-
 	.menu li, .responsive-menu {
 		display: block
 	}
@@ -1624,8 +1599,7 @@ li div.item-content {
 		background: #000
 	}
 	.menu li a {
-		background: #EC5700;
-		color: #fff
+		background: #EC5700
 	}
 	.menu li a:active, .menu li h6:active, .menu li:active&gt;
 	a, .menu li:active&gt;
@@ -1663,10 +1637,6 @@ li div.item-content {
 	.date-outer {
 		width: 97%
 	}
-	.title-summ a:link, .title-summ a:visited {
-		color: #fff
-	}
-
 }
 @media screen and (max-width:400px) {
 	#header h1 {
@@ -1688,25 +1658,24 @@ li div.item-content {
 		visibility: hidden;
 		overflow: hidden
 	}
-
 }
 @media screen and (max-width:414px) {
+	#boxDownload, #boxView {
+		max-height: 120px!important
+	}
 	.ButtonsDownload {
 		width: 100%!important;
-		margin: 0!important;
+		margin: 0!important
 	}
 	#boxDownload .ButtonsDownload, #boxView .ButtonsDownload {
-		border-radius: 0 !important;
+		border-radius: 0!important;
 		max-width: 414px!important;
-		margin-bottom: 1px!important;
+		margin-bottom: 1px!important
 	}
 	#boxDownload {
-		max-height: 120px!important;
-		margin-top: -5px!important;
+		margin-top: -5px!important
 	}
 	#boxView {
-		max-height: 120px!important;
-		margin-bottom: 0px!important;
+		margin-bottom: 0!important
 	}
 }
-/* New Style */
