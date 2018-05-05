@@ -1585,7 +1585,7 @@ li div.item-content {
 		margin: 10px 0
 	}
 	.main .widget {
-		margin: 0
+		margin: 1px;
 	}
 	.sidebar-container {
 		width: 100%;
@@ -1635,7 +1635,7 @@ li div.item-content {
 		padding: 0
 	}
 	.date-outer {
-		width: 97%
+		width: 100%
 	}
 }
 @media screen and (max-width:400px) {
