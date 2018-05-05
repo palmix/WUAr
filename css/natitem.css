@@ -283,7 +283,8 @@ blockquote.language-html .SelectAllbutton:hover span {
 }
 .post-body {
 	line-height: 24px;
-	width: auto
+	width: auto;
+	margin-top: -20px;
 }
 .posts-feed, .thumbBP {
 	width: 200px;
