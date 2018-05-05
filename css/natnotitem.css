@@ -75,10 +75,10 @@ a.comment-bp::after {
 	margin: 0 -12px 0 10px
 }
 a.comment-bp:hover::after {
-	color: #EC5700
+	color: #d63922
 }
 a.comment-bp:hover {
-	background-color: #EC5700;
+	background-color: #d63922;
 	color: #000;
 	float: left;
 	font: 12px/30px tahoma;
@@ -101,7 +101,7 @@ a.comment-bp:hover {
 	-webkit-transition: all .1s cubic-bezier(.97, .96, 0, -.01)
 }
 .labelsbp span a:hover {
-	color: #EC5700;
+	color: #d63922;
 	font-size: 12px
 }
 .labelsbp::before {
