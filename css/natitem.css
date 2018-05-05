@@ -37,7 +37,7 @@
 	color: #058AFF
 }
 .post-body a:hover {
-	color: #EC5700;
+	color: #d63922;
 	-webkit-transition: all ease-in-out .2s;
 	-moz-transition: all ease-in-out .2s;
 	-o-transition: all ease-in-out .2s;
@@ -170,7 +170,7 @@ a strike::after, strike a::after {
 	font-size: 10px
 }
 find:hover {
-	color: #EC5700;
+	color: #d63922;
 	box-shadow: -1px 1px 2px #000;
 	border-radius: 2px
 }
@@ -183,7 +183,7 @@ find {
 find:before, findtext .findtext {
 	font-size: 83%;
 	font-family: 'Droid Arabic Kufi', tahoma, Arial, sans-serif;
-	background: #EC5700;
+	background: #d63922;
 	color: #fff;
 	padding: 5px 7px;
 	border-radius: 10px 10px 0 0;
@@ -294,14 +294,14 @@ table.tr-caption-container tbody tr td {
 	border: .1em solid #D2D2D2
 }
 table.tr-caption-container tbody td.tr-caption {
-	background-color: #EC5700;
+	background-color: #d63922;
 	border-radius: 0 0 5px 5px;
 	color: #FFF;
 	border: 0 solid #D2D2D2
 }
 div.titlepagename h1 {
 	font-size: 18px;
-	color: #EC5700;
+	color: #d63922;
 	font-weight: 700;
 	border-bottom: 1px solid #e5e5e5;
 	font-family: 'Droid Arabic Kufi', tahoma, sans-serif
@@ -377,7 +377,7 @@ div.titlepagename h1 {
 }
 #blog-pager a:hover {
 	color: #fff;
-	background-color: #EC5700
+	background-color: #d63922
 }
 #blog-pager a.blog-pager-older-link {
 	padding: 4px 12px;
@@ -483,7 +483,7 @@ a.titlePostbp {
 	box-shadow: 0 0 1px #000
 }
 #loading-FeedPost {
-	color: #EC5700;
+	color: #d63922;
 	font-size: 25px;
 	align-items: center;
 	margin: 160px
@@ -620,7 +620,7 @@ a.botsimilar.mix:hover, a.botsimilar.similar:hover {
 	box-shadow: -1px -4px 8px 0 rgba(0, 0, 0, .5)
 }
 .ButtonsDownload:active {
-	background-color: #EC5700
+	background-color: #d63922
 }
 blockquote[class*=' language-'] {
 	position: relative;
@@ -631,7 +631,7 @@ blockquote[class*=' language-'] {
 	width: auto;
 	max-width: 100%;
 	max-height: 400px;
-	border-right: 5px solid #EC5700;
+	border-right: 5px solid #d63922;
 	left: 0
 }
 .token.block-comment, .token.cdata, .token.comment, .token.doctype, .token.prolog {
