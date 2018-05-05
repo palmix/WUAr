@@ -278,12 +278,12 @@ a.admin:hover {
 }
 ::-moz-selection {
 	text-shadow: none;
-	background-color: #FF8100;
+	background-color: #d63922;
 	color: #fff
 }
 ::selection {
 	text-shadow: none;
-	background-color: #FF8100;
+	background-color: #d63922;
 	color: #fff
 }
 #header-search {
