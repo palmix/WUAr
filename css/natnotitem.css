@@ -307,12 +307,13 @@ a.comment-bp:hover {
 	}
 }
 @media screen and (max-width:600px) {
+	.main .widget{width: 100%;margin:0 6px 0 0;}
 	.ads span, .post {
 		max-width: 100%;
 		margin: 6px auto
 	}
 	.ads span {
-		width: 95%;
+		width: 98%;
 		text-align: center
 	}
 	.post {
