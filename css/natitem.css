@@ -290,13 +290,12 @@ blockquote.language-html .SelectAllbutton:hover span {
 	height: 130px;
 	overflow: hidden
 }
-table.tr-caption-container tbody tr td {
-	border: .1em solid #D2D2D2
-}
+table.tr-caption-container tbody tr td img{border-radius:5px 5px 0 0;margin-bottom:-6px;}
+
 table.tr-caption-container tbody td.tr-caption {
-	background-color: #d63922;
+	background-color: #e0e0e0;
 	border-radius: 0 0 5px 5px;
-	color: #FFF;
+	color: #000;
 	border: 0 solid #D2D2D2
 }
 div.titlepagename h1 {
