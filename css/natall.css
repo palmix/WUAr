@@ -1465,12 +1465,11 @@ li div.item-content {
 .clipsloaders {
 	padding: 2px;
 	display: inline-flex;
-	margin: 4px 6px;
 	-webkit-transition-duration: .1s;
 	transition-duration: .1s;
 	background-color: #fff;
 	border: 2px solid #e7e7e7;
-	width: 96.6%
+	width: 98%
 }
 @media screen and (max-height:650px) {
 	#sidebar-wrapper .widget-content.AdsLeft {
