@@ -14,7 +14,7 @@ var jwDefaults = {
   "displaytitle": false,
   "flashplayer": "//ssl.p.jwpcdn.com/player/v/7.12.13/jwplayer.flash.swf",
   "height": 260,
-  "key": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+  "key": "7cajI/rZY/93anx6Qrlx6BnCyKCU668WYiFjMw==",
   "mute": false,
   "ph": 1,
   "pid": "1ErWvW43",
