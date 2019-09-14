@@ -21,7 +21,7 @@ cardinfo11 = cardinfo11.replace("<br>","")
         $('.douknowcardinfo').hover(function(ev){
     clearInterval(slideIntervaltimer);
 }, function(ev){
-    slideIntervaltimer = setInterval( nextSlide, 5000);
+    slideIntervaltimer = setInterval( nextSlide, 2000);
 });
 function nextSlide(){
     slidescardinfo[currentSlide].className = 'slidecardinfo';
