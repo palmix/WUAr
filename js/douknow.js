@@ -23,11 +23,6 @@ cardinfo11 = cardinfo11.replace("<br>","")
 }, function(ev){
     slideIntervaltimer = setInterval( nextSlide, 2000);
 });
-        $('.douknowcardinfo').click(function(ev){
-    clearInterval(slideIntervaltimer);
-}, function(ev){
-    slideIntervaltimer = setInterval( nextSlide, 3000);
-});
 			function nextSlide(){
     slidescardinfo[currentSlide].className = 'slidecardinfo';
     currentSlide = (currentSlide+1)%slidescardinfo.length;
