@@ -17,12 +17,13 @@ cardinfo11 = cardinfo11.replace("<br>","")
 			$("#slidescardinfo li:nth-of-type(10)").addClass("slidecardinfo");
     var currentSlide = 0;
     var slidescardinfo = document.querySelectorAll('#slidescardinfo .slidecardinfo');
-    var slideIntervaltimer = setInterval(nextSlide,6000);
-        $('.douknowcardinfo').hover(function(ev){
+	  $('.douknowcardinfo').hover(function(ev){
     clearInterval(slideIntervaltimer);
 }, function(ev){
     slideIntervaltimer = setInterval( nextSlide, 2000);
 });
+    var slideIntervaltimer = setInterval(nextSlide,6000);
+
 			function nextSlide(){
     slidescardinfo[currentSlide].className = 'slidecardinfo';
     currentSlide = (currentSlide+1)%slidescardinfo.length;
