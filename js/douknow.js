@@ -3,7 +3,7 @@ var cardinfo11 = setcardinfo11.innerHTML;
 cardinfo11 = cardinfo11.replace("<ul>","")
 cardinfo11 = cardinfo11.replace("</ul>","")
 cardinfo11 = cardinfo11.replace("<br>","")
-    $("#"+postidforcardinfo).after("<div class='douknowcardinfo'><div class='youknowcardinfo'>هل تعلم؟</div><span class='youknowcardinfoafter'></span><div id='slidescardinfo'>"+cardinfo11+"</div></div>"); 
+    $("#cardinfo").after("<div class='douknowcardinfo'><div class='youknowcardinfo'>هل تعلم؟</div><span class='youknowcardinfoafter'></span><div id='slidescardinfo'>"+cardinfo11+"</div></div>"); 
     		$(document).ready(function() { 
 			$("#slidescardinfo li:nth-of-type(1)").addClass("slidecardinfo showingslidcardinfo"); 
 			$("#slidescardinfo li:nth-of-type(2)").addClass("slidecardinfo"); 
