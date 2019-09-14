@@ -1,5 +1,9 @@
 var setcardinfo11 = document.getElementById("cardinfo11");
 var cardinfo11 = setcardinfo11.innerHTML;
+var ifgetcardinfo112 = setcardinfo11.getElementsByTagName("UL")[0];
+
+   if(ifgetcardinfo112)){
+
 cardinfo11 = cardinfo11.replace("<ul>","")
 cardinfo11 = cardinfo11.replace("</ul>","")
 cardinfo11 = cardinfo11.replace("<br>","")
@@ -31,3 +35,4 @@ cardinfo11 = cardinfo11.replace("<br>","")
     
 }
 }); 
+   }
