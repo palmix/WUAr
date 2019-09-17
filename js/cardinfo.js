@@ -57,7 +57,7 @@ if (cardinfonume0 > 20) {
                 cardinfonume0noimgclass = document.getElementsByClassName("cardbackgroundimage")[0];
         cardinfonume0noimgclass.style.backgroundImage = "url(" + cardinfonume0noimgurl + ")"
 }
-        var imgsizeancardinfo = $(".FastFactsTable .answercardinfo").find("a").attr("href");
+        var imgsizeancardinfo = $(".answercardinfo").find("a").attr("href");
         infoimgsizeancardinfo = imgsizeancardinfo.replace(".gif", ".jpg");
 	 infoimgsizeancardinfo.replace(infoimgsizeancardinfo, "#");
 
