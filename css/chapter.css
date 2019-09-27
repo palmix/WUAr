@@ -109,7 +109,7 @@ span.sidebarfgeoarabicchapter__link.sidebarfgeoarabicchapter__link--highlight {
 		z-index: 3
 	}
 	.control-panel-ContentsMobil span.ContentsMobileShowhide {
-padding-right: 200px;
+padding-right: 190px;
     right: 10px;
     position: absolute;
     bottom: 50%;
@@ -157,7 +157,6 @@ padding-right: 70px;
 		position: static;
 		opacity: 1;
 		transition: all .7s;
-		padding-right: 10px;
 	}
 	.ContentsMobileShowhide.ContentsMobileShow::before {
 		display: none;
