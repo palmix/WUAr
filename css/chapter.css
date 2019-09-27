@@ -154,9 +154,7 @@ padding-right: 70px;
 	}
 	.ContentsMobileShowhide::before {
 		content: "المحتويات";
-		position: static;
-		opacity: 1;
-		transition: all .7s;
+		padding-right: 5px;
 	}
 	.ContentsMobileShowhide.ContentsMobileShow::before {
 		display: none;
