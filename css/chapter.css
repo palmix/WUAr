@@ -87,7 +87,7 @@ span.sidebarfgeoarabicchapter__link.sidebarfgeoarabicchapter__link--highlight {
 	}
 	.classcontrolContents {
 		padding-right: 40px;
-		right: -50px
+		right: -50px;
 			transition: all 1s cubic-bezier(.18,.89,.35,1.02) 0s;
 	}
 	.control-panel-ContentsMobil a, .control-panel-ContentsMobil span {
