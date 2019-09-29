@@ -29,9 +29,6 @@ var videotrackslink = getvideotracks.textContent;
 var btnvideoshow = ''
 var changevideoID = ''
 
-var idimageforvideo = idimageforvideos.replace('/s120/','/w600-h337-p-k-no-nu/');
-var idimageforvideo = idimageforvideos.replace('/h120/','/w600-h337-p-k-no-nu/');
-  
      if (getvideotracks == novid){
 var videotracks = ''
 }else{
