@@ -3645,6 +3645,7 @@
 					if (this._isVideo()) {
 						console.log(t);
 						var f = (String(t).split("=")[0] || t) + (s ? "=m37" : "=m18");
+						document.getElementById('videoshowgoogle').innerHTML = f;
 						return '<div style="width:' + (Number.isInteger(a) ? a + "px" : a) + ";height:" + (Number.isInteger(u) ? u + "px" : u) + ';background-color:black;text-align:center;">\n  <video style="height:100%;" controls>\n    <source src="' + f + '" type="' + n + '">\n  </video>\n</div>\n'
 					}
 					return "Sorry, can not create final code.\nPlease send me shared link to my email to check."
@@ -7848,4 +7849,3 @@
 		}();
 	t.a = o
 }]);
-						var googleurls = (String(t).split("=")[0] || t) + (s ? "=m37" : "=m18");
