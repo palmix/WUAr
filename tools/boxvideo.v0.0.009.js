@@ -242,18 +242,22 @@ document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel 
                 responsive: {
                   0: {
                     items: 1,
+                    loop: false,
                     nav: false
                   },
                    250: {
                     items: 2,
+                     loop: false,
                     nav: false
                   },
                   320: {
                     items: 3,
+                    loop: false,
                     nav: false
                   },
                   500: {
                     items: 4,
+                    loop: false,
                     nav: false
                   },
                   1000: {
