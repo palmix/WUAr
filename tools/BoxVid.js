@@ -26,8 +26,8 @@ var videoIDGoogleDrive = gettdvideoIDGoogleDrive.textContent;
 var videoIDiframelink = gettdvideoIDiframelink.textContent;
 var videotrackslink = getvideotracks.textContent;
   
-var btnvideoshow = ''
-var changevideoID = ''
+var btnvideoshow = '';
+var changevideoID = '';
 
      if (getvideotracks == novid){
 var videotracks = ''
@@ -211,3 +211,30 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
   document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel">'+btnvideoshow+'</div>';
   
+
+
+
+
+
+$('.owl-carousel').owlCarousel({
+
+    loop:true,
+            rtl: true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
