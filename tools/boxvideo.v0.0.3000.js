@@ -1,6 +1,4 @@
-var getvideoaodeall = document.getElementById('videocodeall');
-if (getvideoaodeall){
-  
+
   
 document.getElementById('boxvideo').innerHTML = '<div id="boxvideoshowid"><div id="VAndD"></div></div><div id="btnvideoshowid"></div>';
   
@@ -285,9 +283,7 @@ document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel 
   
   
   
-  
-  }
-  
+
   
 
 
