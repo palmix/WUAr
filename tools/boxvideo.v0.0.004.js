@@ -1,6 +1,6 @@
 
   
-document.getElementById('boxvideo').innerHTML = '<div id="boxvideoshowid"><div id="VAndD"></div></div><div id="btnvideoshowid"></div>';
+document.getElementById('boxvideo').innerHTML = '<div id="boxvideoshowid"><div id="VAndD"><div class="spinnerLoadingView" id="spinnerLoadingViewWidgets"><div class="spinner"><div class="bounce1 circle"></div><div class="bounce2 circle"></div><div class="bounce3 circle"></div></div></div></div></div><div id="btnvideoshowid"></div>';
   
 var gettdimgvideo = document.getElementById('tdimgvideo');
 var gettdvideoID = document.getElementById('tdvideoID');
