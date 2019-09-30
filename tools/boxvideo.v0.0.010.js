@@ -46,8 +46,10 @@ idimageforvideobtn = 'https://lh3.googleusercontent.com/-kmc5H3Cyr10/XZHW_x2JviI
   var imgvideoIDs =  $("#tdimgvideo").find('a').attr('href');
   
   if (imgvideoIDs){
-  idimageforvideos = imgvideoIDs.replace('/s1600/','/w635-h358-c/')
-  idimageforvideobtn = imgvideoIDs.replace('/s1600/','/w102-h62-c/')
+  idimageforvideos = imgvideoIDs.replace('/s1600/','/w635-h358-c/');
+  idimageforvideobtn = imgvideoIDs.replace('/s1600/','/w102-h62-c/');
+  idimageforvideos = imgvideoIDs.replace('/s120/','/w635-h358-c/');
+  idimageforvideobtn = imgvideoIDs.replace('/s120/','/w102-h62-c/');
   }else{
 idimageforvideos = 'https://lh3.googleusercontent.com/-kmc5H3Cyr10/XZHW_x2JviI/AAAAAAAADds/CCzhTilo1sIm6CeSNTraI_q8A_EaaRoCgCLcBGAsYHQ/h1600/GeoArabic-2.jpg';
 idimageforvideobtn = 'https://lh3.googleusercontent.com/-kmc5H3Cyr10/XZHW_x2JviI/AAAAAAAADds/CCzhTilo1sIm6CeSNTraI_q8A_EaaRoCgCLcBGAsYHQ/w102-h62-c/GeoArabic-2.jpg';
