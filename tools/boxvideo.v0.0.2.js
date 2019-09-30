@@ -1,5 +1,10 @@
 var getvideoaodeall = document.getElementById('videocodeall');
 if (getvideoaodeall){
+  
+  
+var getboxvideo = document.getElementById('boxvideo') 
+getboxvideo.innerHTML = '<div id="boxvideoshowid"><div id="VAndD"></div></div><div id="btnvideoshowid"></div>';
+  
 var gettdimgvideo = document.getElementById('tdimgvideo');
 var gettdvideoID = document.getElementById('tdvideoID');
 var gettdvideo2ID = document.getElementById('tdvideo2ID');
@@ -229,10 +234,13 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel owl-theme">'+btnvideoshow+'</div>';
   $('.btnshowvideo').css('background-image', 'url('+idimageforvideobtn+')');
   
-  }
   
   
-              $(document).ready(function() {
+  
+  
+  
+  
+               $(document).ready(function() {
               $('.owl-carousel').owlCarousel({
                  rtl: true,
                 loop: true,
@@ -264,3 +272,36 @@ document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel 
                 }
               })
             })
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
