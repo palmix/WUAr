@@ -68,7 +68,6 @@ var videotracks = '';
 
   }else{
      function changeVideo(changevideoID) {
-         setTimeout(function(){  
       jwplayer('VAndD').setup({
        width: '100%',
         aspectratio: '16:9',
@@ -109,7 +108,7 @@ var videotracks = '';
                 }
             }
    
-            })},2000),.addButton(
+            }).addButton(
   '//lh5.googleusercontent.com/-R_PUSl5mXAk/VQmyyawqlKI/AAAAAAAADeE/4K4KoGP9FAc/s1600/download-button.png',
   'تحميل الفيديو',
   function(){
@@ -273,31 +272,4 @@ document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel 
 
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
