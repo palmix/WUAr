@@ -68,6 +68,7 @@ var videotracks = '';
 
   }else{
      function changeVideo(changevideoID) {
+         setTimeout(function(){
       jwplayer('VAndD').setup({
        width: '100%',
         aspectratio: '16:9',
@@ -115,7 +116,7 @@ var videotracks = '';
 window.open('https://www.youtubepp.com/watch?v='+videoID+'#result', '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left);
 },
   'download'
-);}
+);}  }, 2000);
 changeVideo(videoID);
   btnvideoshow += '<div class="item"><a class="btnshowvideo" href="javascript:changeVideo(changevideoID);"></a></div>'
   }
