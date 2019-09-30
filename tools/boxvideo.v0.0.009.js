@@ -1,7 +1,3 @@
-
-  
-document.getElementById('boxvideo').innerHTML = '<div id="boxvideoshowid"><div id="VAndD"><div style="margin-top:100px;" class="spinnerLoadingView" id="spinnerLoadingViewWidgets"><div class="spinner"><div class="bounce1 circle"></div><div class="bounce2 circle"></div><div class="bounce3 circle"></div></div></div></div></div><div id="btnvideoshowid"></div>';
-  
 var gettdimgvideo = document.getElementById('tdimgvideo');
 var gettdvideoID = document.getElementById('tdvideoID');
 var gettdvideo2ID = document.getElementById('tdvideo2ID');
