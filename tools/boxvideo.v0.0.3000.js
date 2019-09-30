@@ -2,8 +2,7 @@ var getvideoaodeall = document.getElementById('videocodeall');
 if (getvideoaodeall){
   
   
-var getboxvideo = document.getElementById('boxvideo') 
-getboxvideo.innerHTML = '<div id="boxvideoshowid"><div id="VAndD"></div></div><div id="btnvideoshowid"></div>';
+document.getElementById('boxvideo').innerHTML = '<div id="boxvideoshowid"><div id="VAndD"></div></div><div id="btnvideoshowid"></div>';
   
 var gettdimgvideo = document.getElementById('tdimgvideo');
 var gettdvideoID = document.getElementById('tdvideoID');
