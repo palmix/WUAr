@@ -233,7 +233,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="'+videoIDiframelink+'" frameborder="0" allowfullscreen></iframe>';
 
  }  
-    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo btndowvideo" href="javascript:changeVideoiframelink(changevideoID);"></a></div>';
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoiframelink(changevideoID);"></a></div>';
   }
   
   
