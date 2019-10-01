@@ -3,9 +3,8 @@ table#videocodeall {
     display:none;
 }
     #boxvideo {
- margin: 20px 0;
+ margin: 20px auto;
     width: 100%;
-max-width: 640px;
 
 text-align: center;
 
