@@ -70,7 +70,7 @@ background-image: url(https://lh3.googleusercontent.com/-IHbzPDjAB5g/XZPWpw_fK0I
 
 }
 .btndownloadvideo .btnshowvideo::before {
-    content: "\f01d";
+    content: "\f019";
   color:#000;
 }
 .btndownloadvideo .btnshowvideo:hover:before {
