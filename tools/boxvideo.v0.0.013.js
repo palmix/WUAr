@@ -197,7 +197,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//vk.com/video_ext.php?'+videoIDVk+'" frameborder="0" allowfullscreen></iframe>';
 
  }  
-    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoVk(changevideoID);"></a></div>';
+    btnvideoshow += '<div class="btnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoVk(changevideoID);"></a></div>';
   }
   
   
@@ -239,7 +239,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
 
   
-document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel owl-theme">'+btnvideoshow+'</div>';
+document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel owl-theme">'+btnvideoshow+btnvideodownload+'</div>';
   $('.btnshowvideo').css('background-image', 'url('+idimageforvideobtn+')');
   
   
