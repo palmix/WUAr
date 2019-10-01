@@ -239,7 +239,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
 
   
-document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel owl-theme">'+btnvideoshow+btnvideodownload+'</div>';
+document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel owl-theme">'+btnvideoshow+'</div>';
   $('.btnshowvideo').css('background-image', 'url('+idimageforvideobtn+')');
   
   
