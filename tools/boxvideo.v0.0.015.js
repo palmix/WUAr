@@ -55,6 +55,7 @@ idimageforvideobtn = 'https://lh3.googleusercontent.com/-kmc5H3Cyr10/XZHW_x2JviI
   idimageforvideobtn = imgvideoIDs.replace('/s1600/','/w102-h62-c/');
   idimageforvideos = imgvideoIDs.replace('/s120/','/w635-h358-c/');
   idimageforvideobtn = imgvideoIDs.replace('/s120/','/w102-h62-c/');
+  idimageforvideobtn = idimageforvideobtn.replace('/s320/','/w102-h62-c/');
   }else{
 idimageforvideos = 'https://lh3.googleusercontent.com/-kmc5H3Cyr10/XZHW_x2JviI/AAAAAAAADds/CCzhTilo1sIm6CeSNTraI_q8A_EaaRoCgCLcBGAsYHQ/h1600/GeoArabic-2.jpg';
 idimageforvideobtn = 'https://lh3.googleusercontent.com/-kmc5H3Cyr10/XZHW_x2JviI/AAAAAAAADds/CCzhTilo1sIm6CeSNTraI_q8A_EaaRoCgCLcBGAsYHQ/w102-h62-c/GeoArabic-2.jpg';
@@ -211,7 +212,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
  function download2() {window.open("https://lh3.googleusercontent.com/"+videoIDGoogle+"=m22", '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left)};
 
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoGoogle(changevideoID);"></a></div>';
-    btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo" href="javascript:download2();"></a></div>';
+    btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo btndowvideo" href="javascript:download2();"></a></div>';
 
    }
   
@@ -241,7 +242,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
 document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel owl-theme">'+btnvideoshow+btnvideodownload+'</div>';
   $('.btnshowvideo').css('background-image', 'url('+idimageforvideobtn+')');
-  
+   $('.btndowvideo').css('background-image', 'url('https://lh3.googleusercontent.com/-IHbzPDjAB5g/XZPWpw_fK0I/AAAAAAAADeE/BEVnZiIQpRkBT2p8LYGme61vbmv_gdYmwCLcBGAsYHQ/w102-h62-c/5543s2.jpg')');
   
   
   
