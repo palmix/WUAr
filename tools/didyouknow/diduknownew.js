@@ -16,7 +16,7 @@ cardinfo11 = cardinfo11.replace("<br>","")
            autoHeight:true,
     rtl: true,
     items:1,
-    autoplay:false,
+    autoplay:true,
     autoplayTimeout:5000,
     autoplayHoverPause:true,
     stagePadding: 50,
