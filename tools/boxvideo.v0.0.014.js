@@ -122,7 +122,7 @@ window.open('https://www.youtubepp.com/watch?v='+videoID+'#result', '', 'toolbar
 changeVideo(videoID);
   function download1() {window.open("https://www.youtubepp.com/watch?v="+videoID+"#result", '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left)};
 
-  btnvideoshow += '<div class="btnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(changevideoID);"></a></div>'
+  btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(changevideoID);"></a></div>'
   btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo btndowvideo" href="javascript:download1();"></a></div>';
 
   }
@@ -136,7 +136,7 @@ function changeVideoOk(changevideoID) {
 document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//ok.ru/videoembed/'+videoIDOk+'" frameborder="0" allowfullscreen></iframe>';
 
 }  
-    btnvideoshow += '<div class="btnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoOk(changevideoID);"></a></div>';
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoOk(changevideoID);"></a></div>';
   }
   
   
@@ -150,7 +150,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//ok.ru/videoembed/'+video2IDOk+'" frameborder="0" allowfullscreen></iframe>';
 
  }  
-    btnvideoshow += '<div class="btnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoOk2(changevideoID);"></a></div>';
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoOk2(changevideoID);"></a></div>';
   }
   
   
@@ -162,7 +162,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//www.dailymotion.com/embed/video/'+videoIDDaily+'" frameborder="0" allowfullscreen></iframe>';
 
  }  
-    btnvideoshow += '<div class="btnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoDaily(changevideoID);"></a></div>';
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoDaily(changevideoID);"></a></div>';
   }
   
   
@@ -173,7 +173,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//www.dailymotion.com/embed/video/'+video2IDDaily+'" frameborder="0" allowfullscreen></iframe>';
 
  }  
-    btnvideoshow += '<div class="btnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoDaily2(changevideoID);"></a></div>';
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoDaily2(changevideoID);"></a></div>';
   }
   
   
@@ -185,7 +185,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//rutube.ru/play/embed/'+videoIDRutube+'?skinColor=13aae6&sTitle=false&sAuthor=false" frameborder="0" allowfullscreen></iframe>';
 
  }  
-    btnvideoshow += '<div class="btnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoIDRutube(changevideoID);"></a></div>';
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoIDRutube(changevideoID);"></a></div>';
   }
   
   
@@ -197,7 +197,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//vk.com/video_ext.php?'+videoIDVk+'" frameborder="0" allowfullscreen></iframe>';
 
  }  
-    btnvideoshow += '<div class="btnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoVk(changevideoID);"></a></div>';
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoVk(changevideoID);"></a></div>';
   }
   
   
@@ -210,7 +210,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
  }  
  function download2() {window.open("https://lh3.googleusercontent.com/"+videoIDGoogle+"=m22", '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left)};
 
-    btnvideoshow += '<div class="btnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoGoogle(changevideoID);"></a></div>';
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoGoogle(changevideoID);"></a></div>';
     btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo" href="javascript:download2();"></a></div>';
 
    }
@@ -222,7 +222,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//drive.google.com/file/d/'+videoIDGoogleDrive+'/preview" frameborder="0" allowfullscreen></iframe>';
 
  }  
-    btnvideoshow += '<div class="btnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoGoogleDrive(changevideoID);"></a></div>';
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoGoogleDrive(changevideoID);"></a></div>';
   }
   
   
@@ -232,7 +232,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="'+videoIDiframelink+'" frameborder="0" allowfullscreen></iframe>';
 
  }  
-    btnvideoshow += '<div class="btnshowvideo"><a class="btnshowvideo btndowvideo" href="javascript:changeVideoiframelink(changevideoID);"></a></div>';
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo btndowvideo" href="javascript:changeVideoiframelink(changevideoID);"></a></div>';
   }
   
   
