@@ -3,6 +3,7 @@ table#videocodeall {
     display:none;
 }
     #boxvideo {
+ margin: 20px 0;
     width: 100%;
 max-width: 640px;
 
