@@ -66,16 +66,13 @@ opacity: 1;
 }     
 
 .btndownloadvideo .btndvideo {
-background-image: url(https://lh3.googleusercontent.com/-IHbzPDjAB5g/XZPWpw_fK0I/AAAAAAAADeE/BEVnZiIQpRkBT2p8LYGme61vbmv_gdYmwCLcBGAsYHQ/w102-h62-c/5543s2.jpg);
+background-image: url(https://lh3.googleusercontent.com/-ompladqwDs4/XZPcEf3KfRI/AAAAAAAADeQ/OT0uHOuvT3YM2wjEMhANmyiL_YbFrgC4ACLcBGAsYHQ/w102-h62-c/554sd32.jpg);
 
 }
 .btndownloadvideo .btnshowvideo::before {
     content: "\f019";
-  color:#000;
 }
-.btndownloadvideo .btnshowvideo:hover:before {
-    color:#000;
-}
+
 
 
 
