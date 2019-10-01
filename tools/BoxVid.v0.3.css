@@ -64,13 +64,24 @@ opacity: .5;
     color: #25a4e1;
 opacity: 1;
 }     
+
+.btndownloadvideo .btnshowvideo {
+background-image: url(https://lh3.googleusercontent.com/-IHbzPDjAB5g/XZPWpw_fK0I/AAAAAAAADeE/BEVnZiIQpRkBT2p8LYGme61vbmv_gdYmwCLcBGAsYHQ/w102-h62-c/5543s2.jpg);
+
+}
+.btndownloadvideo .btnshowvideo::before {
+    content: "\f01d";
+  color:#000;
+}
+.btndownloadvideo .btnshowvideo:hover:before {
+    color:#000;
+}
+
+
+
 @media only screen and (max-width:500px) {
-    
 #VAndD{
 width: 100%;
 height: 227px;
-    
-    }
-    
-    
-    }
+}
+}
