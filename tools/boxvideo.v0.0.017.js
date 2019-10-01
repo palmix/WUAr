@@ -242,7 +242,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
 document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel owl-theme">'+btnvideoshow+btnvideodownload+'</div>';
   $('.btnshowvideo').css('background-image', 'url('+idimageforvideobtn+')');
-   $('.btndowvideo').css('background-image', 'url('https://lh3.googleusercontent.com/-IHbzPDjAB5g/XZPWpw_fK0I/AAAAAAAADeE/BEVnZiIQpRkBT2p8LYGme61vbmv_gdYmwCLcBGAsYHQ/w102-h62-c/5543s2.jpg')');
+   $('.btndowvideo').css('background-image', 'url(https://lh3.googleusercontent.com/-IHbzPDjAB5g/XZPWpw_fK0I/AAAAAAAADeE/BEVnZiIQpRkBT2p8LYGme61vbmv_gdYmwCLcBGAsYHQ/w102-h62-c/5543s2.jpg)');
   
   
   
