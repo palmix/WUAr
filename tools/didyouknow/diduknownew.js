@@ -1,3 +1,4 @@
+var setcardinfo11 = document.getElementById("cardinfo11");
 var ifgetcardinfo112 = setcardinfo11.getElementsByTagName("UL")[0];
 cardinfo11 = $(ifgetcardinfo112).html();
 
