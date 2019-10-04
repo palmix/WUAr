@@ -71,7 +71,7 @@ var videotracks = '';
    if (videoID == novid){
 
   }else{
-     function changeVideo(changevideoID) {
+     function changeVideo(videoID) {
       jwplayer('VAndD').setup({
        width: '100%',
         aspectratio: '16:9',
@@ -120,7 +120,7 @@ window.open('https://www.youtubepp.com/watch?v='+videoID+'#result', '', 'toolbar
 },
   'download'
 );}
-changeVideo(video2ID);
+changeVideo(videoID);
   function download1() {window.open("https://www.youtubepp.com/watch?v="+videoID+"#result", '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left)};
 
   btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(changevideoID);"></a></div>'
