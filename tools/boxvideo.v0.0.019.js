@@ -129,7 +129,10 @@ changeVideo(videoID);
   }
 
   
-  
+     if (video2ID !== novid){
+
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(video2ID);"></a></div>';
+  }
   
   
    if (videoIDOk !== novid){
