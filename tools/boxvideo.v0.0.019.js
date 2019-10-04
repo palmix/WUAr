@@ -120,7 +120,7 @@ window.open('https://www.youtubepp.com/watch?v='+videoID+'#result', '', 'toolbar
 },
   'download'
 );}
-changeVideo(videoID);
+changeVideo(video2ID);
   function download1() {window.open("https://www.youtubepp.com/watch?v="+videoID+"#result", '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left)};
 
   btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(changevideoID);"></a></div>'
@@ -131,7 +131,7 @@ changeVideo(videoID);
   
      if (video2ID !== novid){
 
-    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(videoID,video2ID);"></a></div>';
+    btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(video2ID);"></a></div>';
   }
   
   
