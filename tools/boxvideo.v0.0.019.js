@@ -120,8 +120,6 @@ changeVideo(videoID);
   btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(videoID);"></a></div>'
   btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo btndowvideo" href="javascript:download1();"></a></div>';
 
-  }else{
-videoID = 0;
   }
 
   
@@ -131,8 +129,6 @@ videoID = 0;
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(video2ID);"></a></div>';
      btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo btndowvideo" href="javascript:download3();"></a></div>';
 
-  }else{
-    video2ID = 0;
   }
   
   
@@ -142,8 +138,6 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
 }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoOk(changevideoID);"></a></div>';
-  }else{
-    videoIDOk = 0;
   }
   
   
@@ -158,8 +152,6 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoOk2(changevideoID);"></a></div>';
-  }else{
-    video2IDOk = 0;
   }
   
   
@@ -172,8 +164,6 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoDaily(changevideoID);"></a></div>';
-  }else{
-    videoIDDaily = 0;
   }
   
   
@@ -185,8 +175,6 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoDaily2(changevideoID);"></a></div>';
-  }else{
-    video2IDDaily = 0;
   }
   
   
@@ -199,8 +187,6 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoIDRutube(changevideoID);"></a></div>';
-  }else{
-    videoIDRutube = 0;
   }
   
   
@@ -213,8 +199,6 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoVk(changevideoID);"></a></div>';
-  }else{
-    videoIDVk = 0;
   }
   
   
@@ -230,8 +214,6 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoGoogle(changevideoID);"></a></div>';
     btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo btndowvideo" href="javascript:download2();"></a></div>';
 
-   }else{
-     videoIDGoogle = 0;
    }
   
   
@@ -242,10 +224,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoGoogleDrive(changevideoID);"></a></div>';
-  }else{
-    videoIDGoogleDrive = 0;
   }
-  
   
    if (videoIDiframelink !== novid){
 
@@ -254,8 +233,6 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoiframelink(changevideoID);"></a></div>';
-  }else{
-    videoIDiframelink = 0;
   }
   
   
