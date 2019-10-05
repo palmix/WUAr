@@ -103,7 +103,7 @@ changeVideo(videoID);
   }
 
   
-     if (video2ID !== 0){
+     if (video2ID !== 'no_video'){
   function download3() {window.open("https://www.youtubepp.com/watch?v="+video2ID+"#result", '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left)};
 
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(video2ID);"></a></div>';
@@ -112,7 +112,7 @@ changeVideo(videoID);
   }
   
   
-   if (videoIDOk !== 0){
+   if (videoIDOk !== 'no_video'){
 function changeVideoOk(changevideoID) {
 document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//ok.ru/videoembed/'+videoIDOk+'" frameborder="0" allowfullscreen></iframe>';
 
@@ -125,7 +125,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
   
   
-   if (video2IDOk !== 0){
+   if (video2IDOk !== 'no_video'){
 
  function changeVideoOk2(changevideoID) {
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//ok.ru/videoembed/'+video2IDOk+'" frameborder="0" allowfullscreen></iframe>';
@@ -137,7 +137,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
   
   
-   if (videoIDDaily !== 0){
+   if (videoIDDaily !== 'no_video'){
 
  function changeVideoDaily(changevideoID) {
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//www.dailymotion.com/embed/video/'+videoIDDaily+'" frameborder="0" allowfullscreen></iframe>';
@@ -148,7 +148,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
   
   
-   if (video2IDDaily !== 0){
+   if (video2IDDaily !== 'no_video'){
 
  function changeVideoDaily2(changevideoID) {
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//www.dailymotion.com/embed/video/'+video2IDDaily+'" frameborder="0" allowfullscreen></iframe>';
@@ -160,7 +160,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
   
   
-   if (videoIDRutube !== 0){
+   if (videoIDRutube !== 'no_video'){
 
  function changeVideoIDRutube(changevideoID) {
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//rutube.ru/play/embed/'+videoIDRutube+'?skinColor=13aae6&sTitle=false&sAuthor=false" frameborder="0" allowfullscreen></iframe>';
@@ -172,7 +172,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
   
   
-   if (videoIDVk !== 0){
+   if (videoIDVk !== 'no_video'){
 
  function changeVideoVk(changevideoID) {
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//vk.com/video_ext.php?'+videoIDVk+'" frameborder="0" allowfullscreen></iframe>';
@@ -183,7 +183,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
   
   
-   if (videoIDGoogle !== 0){
+   if (videoIDGoogle !== 'no_video'){
 
  function changeVideoGoogle(changevideoID) {
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//video.geoarabic.com/p/videog.html?m=0&video='+videoIDGoogle+'" frameborder="0" allowfullscreen></iframe>';
@@ -197,7 +197,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
    }
   
   
-   if (videoIDGoogleDrive !== 0){
+   if (videoIDGoogleDrive !== 'no_video'){
 
  function changeVideoGoogleDrive(changevideoID) {
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="//drive.google.com/file/d/'+videoIDGoogleDrive+'/preview" frameborder="0" allowfullscreen></iframe>';
@@ -207,7 +207,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   }
   
   
-   if (videoIDiframelink !== 0){
+   if (videoIDiframelink !== 'no_video'){
 
  function changeVideoiframelink(changevideoID) {
  document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%" src="'+videoIDiframelink+'" frameborder="0" allowfullscreen></iframe>';
