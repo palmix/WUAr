@@ -218,7 +218,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
 
   
-document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel owl-theme">' + btnvideodownload + btnvideoshow + '</div>';
+document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel owl-theme">' + btnvideodownload +'<br/>'+ btnvideoshow + '</div>';
   $('.btnshowvideo').css('background-image', 'url('+idimageforvideobtn+')');
    $('.btndowvideo').css('background-image', 'url(https://lh3.googleusercontent.com/-ompladqwDs4/XZPcEf3KfRI/AAAAAAAADeQ/OT0uHOuvT3YM2wjEMhANmyiL_YbFrgC4ACLcBGAsYHQ/w102-h62-c/554sd32.jpg)');
   
