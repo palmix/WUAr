@@ -33,7 +33,7 @@ var btnvideodownload = ''
 var changevideoID = ''
 var idimageforvideos = '';
 var idimageforvideobtn = '';
-
+var videosharing = '';
 var wopenpop = 450;
 var hopenpop = 450;
 var left = Number((screen.width/2)-(wopenpop/2));
@@ -44,10 +44,6 @@ var tops = Number((screen.height/2)-(hopenpop/2));
 idimageforvideos = 'https://lh3.googleusercontent.com/-kmc5H3Cyr10/XZHW_x2JviI/AAAAAAAADds/CCzhTilo1sIm6CeSNTraI_q8A_EaaRoCgCLcBGAsYHQ/h1600/GeoArabic-2.jpg';
 idimageforvideobtn = 'https://lh3.googleusercontent.com/-kmc5H3Cyr10/XZHW_x2JviI/AAAAAAAADds/CCzhTilo1sIm6CeSNTraI_q8A_EaaRoCgCLcBGAsYHQ/w102-h62-c/GeoArabic-2.jpg';
 }else{
-
-
-
-
   var imgvideoIDs =  $("#tdimgvideo").find('a').attr('href');
   
   if (imgvideoIDs){
@@ -68,9 +64,7 @@ var videotracks = '';
 }else{
  var  videotracks = videotrackslink;
   }
-   if (videoID == novid){
-
-  }else{
+   if (videoID !== novid){
      function changeVideo(videoID) {
       jwplayer('VAndD').setup({
        width: '100%',
@@ -126,6 +120,8 @@ changeVideo(videoID);
   btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(videoID);"></a></div>'
   btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo btndowvideo" href="javascript:download1();"></a></div>';
 
+  }else{
+videoID = 0;
   }
 
   
@@ -135,6 +131,8 @@ changeVideo(videoID);
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(video2ID);"></a></div>';
      btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo btndowvideo" href="javascript:download3();"></a></div>';
 
+  }else{
+    video2ID = 0;
   }
   
   
@@ -144,6 +142,8 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
 }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoOk(changevideoID);"></a></div>';
+  }else{
+    videoIDOk = 0;
   }
   
   
@@ -158,6 +158,8 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoOk2(changevideoID);"></a></div>';
+  }else{
+    video2IDOk = 0;
   }
   
   
@@ -170,6 +172,8 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoDaily(changevideoID);"></a></div>';
+  }else{
+    videoIDDaily = 0;
   }
   
   
@@ -181,6 +185,8 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoDaily2(changevideoID);"></a></div>';
+  }else{
+    video2IDDaily = 0;
   }
   
   
@@ -193,6 +199,8 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoIDRutube(changevideoID);"></a></div>';
+  }else{
+    videoIDRutube = 0;
   }
   
   
@@ -205,6 +213,8 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoVk(changevideoID);"></a></div>';
+  }else{
+    videoIDVk = 0;
   }
   
   
@@ -220,6 +230,8 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoGoogle(changevideoID);"></a></div>';
     btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo btndowvideo" href="javascript:download2();"></a></div>';
 
+   }else{
+     videoIDGoogle = 0;
    }
   
   
@@ -230,6 +242,8 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoGoogleDrive(changevideoID);"></a></div>';
+  }else{
+    videoIDGoogleDrive = 0;
   }
   
   
@@ -240,6 +254,8 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
 
  }  
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoiframelink(changevideoID);"></a></div>';
+  }else{
+    videoIDiframelink = 0;
   }
   
   
@@ -250,7 +266,8 @@ document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel 
   $('.btnshowvideo').css('background-image', 'url('+idimageforvideobtn+')');
    $('.btndowvideo').css('background-image', 'url(https://lh3.googleusercontent.com/-ompladqwDs4/XZPcEf3KfRI/AAAAAAAADeQ/OT0uHOuvT3YM2wjEMhANmyiL_YbFrgC4ACLcBGAsYHQ/w102-h62-c/554sd32.jpg)');
   
-  
+console.info('imgh=' + idimageforvideos + '&imgl='idimageforvideobtn'& y=' + videoID + '&y2=' + video2ID + '&o=' + videoIDOk + '&o2=' + video2IDOk + '&d=' + videoIDDaily + '&d2=' + video2IDDaily + '&r=' + videoIDRutube + '&v=' + videoIDVk + '&gp=' + videoIDGoogle + '&gd=' + videoIDGoogleDrive + '&f=' + videoIDiframelink + '&t=' + videotrackslink)
+
   
   
   
