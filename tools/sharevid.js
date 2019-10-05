@@ -49,7 +49,6 @@ var videotracks = '';
     height: '100%',
       skin: 'bekle',
       androidhls: 'true',
-      stretching: 'exactfit',
       abouttext: 'سياسة الخصوصية',
       aboutlink: 'https://www.geoarabic.com/p/privacy.html',
             logo: {
