@@ -37,12 +37,12 @@ var tops = Number((screen.height/2)-(hopenpop/2));
 
 
   
-     if (videotrackslink == 0){
+     if (videotrackslink == 'no_video'){
 var videotracks = '';
 }else{
  var  videotracks = videotrackslink;
   }
-   if (videoID == 0){
+   if (videoID == 'no_video'){
 
   }else{
      function changeVideo(videoID) {
