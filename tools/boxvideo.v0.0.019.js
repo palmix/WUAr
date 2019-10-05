@@ -33,7 +33,7 @@ var btnvideodownload = ''
 var changevideoID = ''
 var idimageforvideos = '';
 var idimageforvideobtn = '';
-var videosharing = '';
+
 var wopenpop = 450;
 var hopenpop = 450;
 var left = Number((screen.width/2)-(wopenpop/2));
@@ -44,6 +44,10 @@ var tops = Number((screen.height/2)-(hopenpop/2));
 idimageforvideos = 'https://lh3.googleusercontent.com/-kmc5H3Cyr10/XZHW_x2JviI/AAAAAAAADds/CCzhTilo1sIm6CeSNTraI_q8A_EaaRoCgCLcBGAsYHQ/h1600/GeoArabic-2.jpg';
 idimageforvideobtn = 'https://lh3.googleusercontent.com/-kmc5H3Cyr10/XZHW_x2JviI/AAAAAAAADds/CCzhTilo1sIm6CeSNTraI_q8A_EaaRoCgCLcBGAsYHQ/w102-h62-c/GeoArabic-2.jpg';
 }else{
+
+
+
+
   var imgvideoIDs =  $("#tdimgvideo").find('a').attr('href');
   
   if (imgvideoIDs){
@@ -64,7 +68,9 @@ var videotracks = '';
 }else{
  var  videotracks = videotrackslink;
   }
-   if (videoID !== novid){
+   if (videoID == novid){
+
+  }else{
      function changeVideo(videoID) {
       jwplayer('VAndD').setup({
        width: '100%',
@@ -226,6 +232,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideoGoogleDrive(changevideoID);"></a></div>';
   }
   
+  
    if (videoIDiframelink !== novid){
 
  function changeVideoiframelink(changevideoID) {
@@ -243,7 +250,7 @@ document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel 
   $('.btnshowvideo').css('background-image', 'url('+idimageforvideobtn+')');
    $('.btndowvideo').css('background-image', 'url(https://lh3.googleusercontent.com/-ompladqwDs4/XZPcEf3KfRI/AAAAAAAADeQ/OT0uHOuvT3YM2wjEMhANmyiL_YbFrgC4ACLcBGAsYHQ/w102-h62-c/554sd32.jpg)');
   
-
+  
   
   
   
@@ -282,9 +289,10 @@ document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel 
                   }
                 }
               })
-            })
+            });
 
   
-  
+  console.log('imgh=' + idimageforvideos + '&amp;imgl=' + idimageforvideobtn + '&amp;y=' + videoID + '&amp;y2=' + video2ID + '&amp;o=' + videoIDOk + '&amp;o2=' + video2IDOk + '&amp;d=' + videoIDDaily + '&amp;d2=' + video2IDDaily + '&amp;r=' + videoIDRutube + '&amp;v=' + videoIDVk + '&amp;gp=' + videoIDGoogle + '&amp;gd=' + videoIDGoogleDrive + '&amp;f=' + videoIDiframelink + '&amp;t=' + videotrackslink);
+
   
   
