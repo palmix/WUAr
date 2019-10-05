@@ -220,7 +220,7 @@ document.getElementById('VAndD').innerHTML = '<iframe width="100%" height="100%"
   
 
   
-document.getElementById('btnvideoshowid').innerHTML = '<table border="0"><tr><td>' + btnvideoshow +'</td></tr><tr><td><div class="owl-carousel owl-theme">'+btnvideodownload+'</div></td></tr></table>';
+document.getElementById('btnvideoshowid').innerHTML = '<table border="0"><div class="owl-carousel owl-theme"><tr><td>' + btnvideoshow +'</td></tr><tr><td>'+btnvideodownload+'</td></tr></div></table>';
   $('.btnshowvideo').css('background-image', 'url('+idimageforvideobtn+')');
    $('.btndowvideo').css('background-image', 'url(https://lh3.googleusercontent.com/-ompladqwDs4/XZPcEf3KfRI/AAAAAAAADeQ/OT0uHOuvT3YM2wjEMhANmyiL_YbFrgC4ACLcBGAsYHQ/w102-h62-c/554sd32.jpg)');
   
