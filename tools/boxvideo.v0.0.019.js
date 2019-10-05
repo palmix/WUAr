@@ -292,7 +292,7 @@ document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel 
             });
 
   
-  console.log('imgh=' + idimageforvideos + '&amp;imgl=' + idimageforvideobtn + '&amp;y=' + videoID + '&amp;y2=' + video2ID + '&amp;o=' + videoIDOk + '&amp;o2=' + video2IDOk + '&amp;d=' + videoIDDaily + '&amp;d2=' + video2IDDaily + '&amp;r=' + videoIDRutube + '&amp;v=' + videoIDVk + '&amp;gp=' + videoIDGoogle + '&amp;gd=' + videoIDGoogleDrive + '&amp;f=' + videoIDiframelink + '&amp;t=' + videotrackslink);
 
-  
+    console.log('imgh=' + idimageforvideos + '&imgl=' + idimageforvideobtn + '&y=' + videoID + '&y2=' + video2ID + '&o=' + videoIDOk + '&o2=' + video2IDOk + '&d=' + videoIDDaily + '&d2=' + video2IDDaily + '&r=' + videoIDRutube + '&v=' + videoIDVk + '&gp=' + videoIDGoogle + '&gd=' + videoIDGoogleDrive + '&f=' + videoIDiframelink + '&t=' + videotrackslink);
+
   
