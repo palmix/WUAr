@@ -45,10 +45,11 @@ var videotracks = '';
   }else{
      function changeVideo(videoID) {
       jwplayer('VAndD').setup({
-   width: '100%',
-    height: '100%',
+       width: '100%',
+        aspectratio: '16:9',
       skin: 'bekle',
       androidhls: 'true',
+      stretching: 'exactfit',
       abouttext: 'سياسة الخصوصية',
       aboutlink: 'https://www.geoarabic.com/p/privacy.html',
             logo: {
