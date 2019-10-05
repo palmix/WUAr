@@ -243,7 +243,6 @@ document.getElementById('btnvideoshowid').innerHTML = '<div class="owl-carousel 
   $('.btnshowvideo').css('background-image', 'url('+idimageforvideobtn+')');
    $('.btndowvideo').css('background-image', 'url(https://lh3.googleusercontent.com/-ompladqwDs4/XZPcEf3KfRI/AAAAAAAADeQ/OT0uHOuvT3YM2wjEMhANmyiL_YbFrgC4ACLcBGAsYHQ/w102-h62-c/554sd32.jpg)');
   
-console.log('imgh=' + idimageforvideos + '&amp;imgl='idimageforvideobtn'&amp; y=' + videoID + '&amp;y2=' + video2ID + '&amp;o=' + videoIDOk + '&amp;o2=' + video2IDOk + '&amp;d=' + videoIDDaily + '&amp;d2=' + video2IDDaily + '&amp;r=' + videoIDRutube + '&amp;v=' + videoIDVk + '&amp;gp=' + videoIDGoogle + '&amp;gd=' + videoIDGoogleDrive + '&amp;f=' + videoIDiframelink + '&amp;t=' + videotrackslink);
 
   
   
