@@ -48,6 +48,7 @@ var videotracks = '';
      function changeVideo(videoID) {
       jwplayer('VAndD').setup({
        width: '100%',
+        aspectratio: '16:9',
       skin: 'bekle',
       androidhls: 'true',
       stretching: 'exactfit',
