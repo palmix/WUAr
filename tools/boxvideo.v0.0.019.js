@@ -116,12 +116,12 @@ var videotracks = '';
   '//lh5.googleusercontent.com/-R_PUSl5mXAk/VQmyyawqlKI/AAAAAAAADeE/4K4KoGP9FAc/s1600/download-button.png',
   'تحميل الفيديو',
   function(){
-window.open('https://www.youtubepp.com/watch?v='+videoID+'#result', '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left);
+window.open('https://www.vidpaw.com/download/'+videoID, '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left);
 },
   'download'
 );}
 changeVideo(videoID);
-  function download1() {window.open("https://www.youtubepp.com/watch?v="+videoID+"#result", '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left)};
+  function download1() {window.open("https://www.vidpaw.com/download/"+videoID, '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left)};
 
   btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(videoID);"></a></div>'
   btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo btndowvideo" href="javascript:download1();"></a></div>';
@@ -130,7 +130,7 @@ changeVideo(videoID);
 
   
      if (video2ID !== novid){
-  function download3() {window.open("https://www.youtubepp.com/watch?v="+video2ID+"#result", '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left)};
+  function download3() {window.open("https://www.vidpaw.com/download/"+video2ID, '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+wopenpop+', height=600, top='+tops+', left='+left)};
 
     btnvideoshow += '<div class="itembtnshowvideo"><a class="btnshowvideo" href="javascript:changeVideo(video2ID);"></a></div>';
      btnvideodownload += '<div class="btndownloadvideo"><a class="btnshowvideo btndowvideo" href="javascript:download3();"></a></div>';
